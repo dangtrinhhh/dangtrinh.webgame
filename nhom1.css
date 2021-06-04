@@ -1,0 +1,145 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    scroll-behavior: smooth;
+}
+
+#menu {
+    padding-top: 50px;
+}
+
+#nav li {
+    position: relative;
+}
+
+#nav>li {
+    display: inline-block;
+}
+
+#nav>li>a {
+    color: #fff;
+    text-transform: uppercase;
+}
+
+#nav {
+    display: inline-block;
+    background-color: #000;
+}
+
+#nav,
+.subnav {
+    list-style-type: none;
+    display: block;
+}
+
+#nav li a {
+    text-decoration: none;
+    line-height: 46px;
+    padding: 0 24px;
+    display: block;
+}
+
+#nav>li:hover>a,
+#nav .subnav li:hover a {
+    color: #000;
+    background-color: #ccc;
+    /* display: inline-block; */
+}
+
+#nav .subnav {
+    display: none;
+    position: absolute;
+    background-color: #fff;
+    top: 100%;
+    left: 0;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+}
+
+
+/* #nav .subnav li:hover {
+    position: absolute;
+    background-color: #fff;
+} */
+
+#nav .subnav a {
+    color: #000;
+    padding: 0 12px;
+    line-height: 38px;
+    width: 160px;
+    /* background-color: #fff;  */
+}
+
+#nav li:hover .subnav {
+    display: block;
+}
+
+.header {
+    background-color: #fa5430;
+    width: 100%;
+    height: 50px;
+    color: #fff;
+    text-align: center;
+    position: fixed;
+}
+
+.container {
+    margin-top: 50px;
+    width: 20%;
+    float: left;
+    overflow: hidden;
+    padding: 0 10px;
+}
+
+.img {
+    width: 100%;
+}
+
+.subtitle {
+    font-size: 10px;
+    opacity: 0.6;
+    height: 80px;
+}
+
+.button-download {
+    text-decoration: none;
+    color: #fff;
+    background-color: #fa5430;
+    display: inline-block;
+    font-size: 10px;
+}
+
+.container:hover {
+    background: #e1e1e1;
+    border: 3px solid #fa5430;
+}
+
+.button-download:hover,
+.button-home:hover {
+    background-color: #000;
+    color: #fff;
+    border-color: #fa5430;
+}
+
+.button-home {
+    text-decoration: none;
+    font-size: 10px;
+    color: #fff;
+    padding: 1px 1px;
+    background-color: #17c6b5;
+    margin-left: 15px;
+}
+
+.button {
+    float: left;
+    margin-bottom: 15px;
+}
+
+.end-section {
+    display: none;
+    position: relative !important;
+}
