@@ -87,22 +87,37 @@ html {
     position: fixed;
 }
 
+.content {
+    margin-left: 25px;
+}
+
 .container {
-    margin-top: 50px;
-    width: 20%;
+    margin-top: 20px;
+    width: 217px;
     float: left;
     overflow: hidden;
-    padding: 0 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fff;
+    border-radius: 2%;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3);
 }
 
 .img {
     width: 100%;
 }
 
+.title {
+    margin-left: 15px;
+    height: 50px;
+    line-height: 1;
+}
+
 .subtitle {
     font-size: 10px;
-    opacity: 0.6;
-    height: 80px;
+    height: 90px;
+    margin-left: 15px;
+    margin-right: 15px;
 }
 
 .button-download {
@@ -111,10 +126,11 @@ html {
     background-color: #fa5430;
     display: inline-block;
     font-size: 10px;
+    margin-left: 20px;
 }
 
 .container:hover {
-    background: #e1e1e1;
+    background: #fff;
     border: 3px solid #fa5430;
 }
 
